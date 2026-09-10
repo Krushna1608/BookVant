@@ -169,7 +169,7 @@ const booksDatabase = {
         marathi: [
             { subject: "इयत्ता २ री - मराठी (बालभारती)", cover: "1/2m(m).jpg", url: "pdf/2marathi.pdf" },
             { subject: "इयत्ता २ री - गणित (मराठी माध्यम)", cover: "1/2ma(m).jpg", url: "pdf/2maths(m).pdf" },
-            { subject: "इयत्ता २ री - इंग्रजी (My English Book)", cover: "1/2e(m).jpg", url: "2english.pdf" }
+            { subject: "इयत्ता २ री - इंग्रजी (My English Book)", cover: "1/2e(m).jpg", url: "pdf/2english.pdf" }
         ],
         english: [
             { subject: "Std 2 - English", cover: "1/2e(e).jpg", url: "pdf/2english(e).pdf" },
