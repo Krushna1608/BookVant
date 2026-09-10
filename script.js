@@ -527,7 +527,7 @@ function renderBooks() {
         card.className = "book-card";
         
         card.innerHTML = `
-            <img src="${book.cover}" alt="${book.subject}" class="book-cover" style="width: 130px; height: 180px; object-fit: cover; border-radius: 6px;" onerror="this.src='https://via.placeholder.com/130x180?text=No+Image'">
+            <img src="images/${book.cover}" alt="${book.subject}" class="book-cover" style="width: 130px; height: 180px; object-fit: cover; border-radius: 6px;" onerror="this.src='https://via.placeholder.com/130x180?text=No+Image'">
             <h4 style="margin: 10px 0; font-size: 14px;">${book.subject}</h4>
             <button onclick="openPdfModal('${book.url}')" class="btn-read" style="padding: 8px 15px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Read PDF</button>
         `;
